@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("¿Cual es tu nombre?");
+        System.out.println("¿Cual es tu edad?");
         Scanner sc = new Scanner(System.in);
-        String nombre = sc.next();
-        System.out.println("Encantando de conocerte " + nombre);
+        int edad = sc.nextInt();
+        System.out.println("Tu edad es " + edad);
     }
 }
